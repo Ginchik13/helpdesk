@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Desk - Пользователь</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Help Desk</h1>
+    <h2>Создать заявку</h2>
+    <form id="ticketForm">
+        <input type="text" id="title" placeholder="Заголовок" required>
+        <textarea id="description" placeholder="Описание" required></textarea>
+        <select id="category" required>
+            <option value="1С">1С</option>
+            <option value="Битрикс">Битрикс</option>
+            <option value="Почта">Почта</option>
+            <option value="Создание Пользователя">Создание Пользователя</option>
+        </select>
+        <button type="submit">Создать</button>
+    </form>
+
+    <h2>Завершенные заявки</h2>
+    <div id="ticketsContainer" class="tickets-grid"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+input, textarea, select, button {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 400px;
+}
+
+.tickets-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ticket-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: calc(33.33% - 20px);
+    background-color: #f9f9f9;
+}
+
+.category-block {
+    margin-bottom: 40px;
+}
